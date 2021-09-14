@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Killtheheretik's electronic press kit" />
+        <link rel="preload" href="public/css/styles.css" as="style" />
+        <link rel="stylesheet" href="public/css/styles.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+            rel="stylesheet"
+        />
+        <title>Killtheheretik</title>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="public/img/logo/logo.svg" alt="killtheheretik's logo">
+            <nav>
+                <ul>
+                    <li><a href="#bio">Bio</a></li>
+                    <li><a href="#music">Music</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <h2 class="hero-body">
+                    "Articulate trap instrumentals, beautiful lyricism, and pop sensibilites"
+                </h2>
+            </section>
+            <section id="bio" class="bio">
+                <h2 class="section-title">About me.</h2>
+                <p class="bio-body">
+                    Killtheheretik is positioned to set the standard for a new sound,
+                    he has an energetic atmosphere that intertwines with an inspiring melody, 
+                    and pulls you out from your seat into a new world. 
+                    Killtheretik has been very musical from an early age, 
+                    from hardcore bands to freestyle rap, he’s always found a way to stimulate vocal creativity. 
+                    <br>
+                    <br>
+                    In 2017 Killtheheretik was able to truly identify his sound and run with it. 
+                    Since then Killtheretik has gone on to release several EPs as well as the album “DIGITAL DANGER” in 2020. 
+                    “DIGITAL DANGER” was a defining moment for Killtheheretik and the next chapter looks very promising. 
+                    This is one of those artists you’ll wish you would’ve been listening to from the start!
+                </p>
+            </section>
+            <section id="music" class="music">
+                <h2 class="section-title">Music.</h2>
+                <div class="music-player">
+                    <div class="music-cover-container">
+                        <h3 class="music-cover-title">Wander</h3>
+                        <p class="music-cover-description">
+                            Upcoming release on May 28th, 2021
+                        </p>
+                        <img
+                            src="public/img/covers/wander_image.png"
+                            alt="Vibrantly colored depiction of a bumble bee flying out of a honeycomb towards the sun"
+                            class="music-cover"
+                        />
+                    </div>
+                    <div class="music-container">
+                        <ul id="track-list" class="track-list">
+                            <li id="track-wander" class="track-item" onclick="audioBtnClick(this)">
+                                <h4 id="track-wander" class="track-title">
+                                    Wander
+                                    <span class="track-playing hidden">...playing</span>
+                                </h4>
+                                <audio id="audio-wander" class="hidden" src="public/audio/WANDER.wav"></audio>
+                            </li>
+                            <li id="track-few" class="track-item" onclick="audioBtnClick(this)">
+                                <h4 class="track-title">
+                                    Few and Far Between
+                                    <span class="track-playing hidden">...playing</span>
+                                </h4>
+                                <audio id="audio-few" class="hidden" src="public/audio/FEW AND FAR BETWEEN.wav"></audio>
+                            </li>
+                            <li id="track-forever" class="track-item" onclick="audioBtnClick(this)">
+                                <h4 class="track-title">
+                                    Forever
+                                    <span class="track-playing hidden">...playing</span>
+                                </h4>
+                                <audio id="audio-forever" class="hidden" src="public/audio/FOREVER.wav"></audio>
+                            </li>
+                            <li id="track-slipping" class="track-item" onclick="audioBtnClick(this)">
+                                <h4 class="track-title" >
+                                    Slipping Away
+                                    <span class="track-playing hidden">...playing</span>
+                                </h4>
+                                <audio id="audio-slipping" class="hidden" src="public/audio/SLIPPING AWAY.wav"></audio>
+                            </li>
+                            <li id="track-caress" class="track-item" onclick="audioBtnClick(this)">
+                                <h4 class="track-title" >
+                                    Caress
+                                    <span class="track-playing hidden">...playing</span>
+                                </h4>
+                                <audio id="audio-caress" class="hidden" src="public/audio/CARESS.wav"></audio>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="spotify-container">
+                    <iframe title="spotify embeded player" class="spotify-player" src="https://open.spotify.com/embed/album/2Scw1Fk7dczEUj59zzAikQ" width="300px" height="460px" frameborder="0"  allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </section>
+            <section id="photos" class="photos">
+                <h2 class="section-title">Photos.</h2>
+                <ul class="image-list">
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_5725.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_5852.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_5891.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_5925.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6010.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6047.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6106.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6175.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6188.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6264.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6331.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6044.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6080.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6028.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6169.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                    <li class="image-container">
+                        <img
+                            src="public/img/promoshots/IMG_6200.jpeg"
+                            alt="photo of Killtheheretik"
+                            class="photo-item"
+                        />
+                    </li>
+                </ul>
+            </section>
+            <section id="contact" class="contact">
+                <h2 class="section-title">Contact.</h2>
+                <ul class="contact-list">
+                    <li class="contact-item">
+                        <h3 class="contact-item-label">Label Email:</h3>
+                        <a
+                            href="mailto:baddaybound@gmail.com"
+                            class="contact-item-body"
+                            >baddaybound@gmail.com</a
+                        >
+                    </li>
+                    <li class="contact-item">
+                        <h3 class="contact-item-label">Management Email:</h3>
+                        <a
+                            href="mailto:halfblowncontact@gmail.com"
+                            class="contact-item-body"
+                            >halfblowncontact@gmail.com</a
+                        >
+                    </li>
+                    <li class="contact-item">
+                        <h3 class="contact-item-label">Management Phone:</h3>
+                        <a href="tel:360-742-9825" class="contact-item-body"
+                            >360-742-9825</a
+                        >
+                    </li>
+                    <li class="contact-item">
+                        <h4 class="contact-item-label">Artist Link Tree:</h3>
+                        <a
+                            href="https://linktr.ee/Killtheheretik"
+                            class="contact-item-body"
+                            >linktr.ee/Killtheheretik</a
+                        >
+                    </li>
+                    <li class="contact-item">
+                        <h3 class="contact-item-label">
+                            Management Instagram:
+                        </h3>
+                        <a
+                            href="https://instagram.com/halfblown"
+                            class="contact-item-body"
+                            >@Halfblown</a
+                        >
+                    </li>
+                    <li class="contact-item">
+                        <h3 class="contact-item-label">Management Twitter:</h3>
+                        <a
+                            href="https://twitter.com/halfblownmusic"
+                            class="contact-item-body"
+                            >@Halfblownmusic</a
+                        >
+                    </li>
+                </ul>
+            </section>
+            <footer>
+                <p>Website designed by: @Halfblown</p>
+            </footer>
+        </main>
+        <script src="public/js/index.js"></script>
+    </body>
+</html>
